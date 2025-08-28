@@ -4,6 +4,8 @@ import { auth, db } from "../src/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import { useRouter } from "next/router";
+import { auth, db } from "../src/firebase";
+
 
 export default function Signup() {
   const [email, setEmail] = useState("");
