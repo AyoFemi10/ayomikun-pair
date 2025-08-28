@@ -3,6 +3,8 @@ import { useState } from "react";
 import { auth, googleProvider, RecaptchaVerifier, signInWithPhoneNumber } from "../src/firebase";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useRouter } from "next/router";
+import { auth, googleProvider } from "../src/firebase";
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
