@@ -4,6 +4,8 @@ import { auth, db } from "../src/firebase";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { useRouter } from "next/router";
 import axios from "axios";
+import { db } from "../src/firebase";
+
 
 export default function Dashboard() {
   const [coins, setCoins] = useState(0);
