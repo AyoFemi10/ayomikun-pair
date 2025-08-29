@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { auth, googleProvider, signInWithPopup } from "../firebase";
+import { auth, googleProvider, signInWithPopup } from "./firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
 export default function Signup() {
