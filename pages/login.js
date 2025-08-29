@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { auth, googleProvider, signInWithPopup, RecaptchaVerifier, signInWithPhoneNumber } from "../src/firebase";
+import { auth, googleProvider, signInWithPopup, RecaptchaVerifier, signInWithPhoneNumber } from "../firebase";
 
 export default function Login() {
   const [phone, setPhone] = useState("");
